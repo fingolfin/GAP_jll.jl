@@ -1,0 +1,61 @@
+[[GAP]]
+arch = "aarch64"
+git-tree-sha1 = "15b94670e36fd93d29940afdc1e78513fa28234b"
+libc = "glibc"
+os = "linux"
+
+    [[GAP.download]]
+    sha256 = "648385399bb72258ceb758827dde436bcb95beaaf8da9c0b73d7e058a570437d"
+    url = "https://github.com/JuliaBinaryWrappers/GAP_jll.jl/releases/download/GAP-v4.11.0+0/GAP.v4.11.0.aarch64-linux-gnu.tar.gz"
+[[GAP]]
+arch = "aarch64"
+git-tree-sha1 = "6925e872f7d53d30e3eb3e238a07390d033703db"
+libc = "musl"
+os = "linux"
+
+    [[GAP.download]]
+    sha256 = "232ee983fe63829c7ddc9ccca8f9ea383e51cd957625a6bcf7b5edc734a95e05"
+    url = "https://github.com/JuliaBinaryWrappers/GAP_jll.jl/releases/download/GAP-v4.11.0+0/GAP.v4.11.0.aarch64-linux-musl.tar.gz"
+[[GAP]]
+arch = "powerpc64le"
+git-tree-sha1 = "538a31abaaab0599cedc6de1d7946263be5abffc"
+libc = "glibc"
+os = "linux"
+
+    [[GAP.download]]
+    sha256 = "15bf0f1bcb90cc1fce029b6ec76ac37cbe9a46e5e5063a79929e70fe76fc4534"
+    url = "https://github.com/JuliaBinaryWrappers/GAP_jll.jl/releases/download/GAP-v4.11.0+0/GAP.v4.11.0.powerpc64le-linux-gnu.tar.gz"
+[[GAP]]
+arch = "x86_64"
+git-tree-sha1 = "dd9f541b17e8ddd74201a403f256558690973954"
+os = "macos"
+
+    [[GAP.download]]
+    sha256 = "fa0963389ab27a57c58acc86be5115718f00959fa4bc5dc4b2aa80589100b77c"
+    url = "https://github.com/JuliaBinaryWrappers/GAP_jll.jl/releases/download/GAP-v4.11.0+0/GAP.v4.11.0.x86_64-apple-darwin.tar.gz"
+[[GAP]]
+arch = "x86_64"
+git-tree-sha1 = "b04608e8b67033136fac472f59755d2fc4da3140"
+libc = "glibc"
+os = "linux"
+
+    [[GAP.download]]
+    sha256 = "13918ef0cba04b427e7641c737c31768b3fcb25eb2fa9707abf9807a559e356e"
+    url = "https://github.com/JuliaBinaryWrappers/GAP_jll.jl/releases/download/GAP-v4.11.0+0/GAP.v4.11.0.x86_64-linux-gnu.tar.gz"
+[[GAP]]
+arch = "x86_64"
+git-tree-sha1 = "e88cde80af7c823312b6ab0ae8fc8c4be68b3560"
+libc = "musl"
+os = "linux"
+
+    [[GAP.download]]
+    sha256 = "da12f9e7fb6e4fecca6bbb974b50937dfc80cd4250b37465d53aa06568f000e5"
+    url = "https://github.com/JuliaBinaryWrappers/GAP_jll.jl/releases/download/GAP-v4.11.0+0/GAP.v4.11.0.x86_64-linux-musl.tar.gz"
+[[GAP]]
+arch = "x86_64"
+git-tree-sha1 = "208cf0cc48b2f007bd290f3770d63ac5ec55ce73"
+os = "freebsd"
+
+    [[GAP.download]]
+    sha256 = "de29e761f36964dc13ece1121e0035673deca970fecd7b0230c363a62dea4579"
+    url = "https://github.com/JuliaBinaryWrappers/GAP_jll.jl/releases/download/GAP-v4.11.0+0/GAP.v4.11.0.x86_64-unknown-freebsd.tar.gz"
