@@ -21,7 +21,8 @@ function __init__()
     )
 
     JLLWrappers.@generate_init_footer()
-        sym = dlsym(libgap_handle, :GAP_InitJuliaMemoryInterface)
-    ccall(sym, Nothing, (Any, Ptr{Nothing}), @__MODULE__), C_NULL)
+    
+    sym = dlsym(libgap_handle, :GAP_InitJuliaMemoryInterface)
+    ccall(sym, Nothing, (Any, Ptr{Nothing}), @__MODULE__, C_NULL)
 
 end  # __init__()
